@@ -7,9 +7,9 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 VERSION="${1:-0.1.0}"
-APP_NAME="BouncingDVD"
+APP_NAME="BouncingLogo"
 APP_BUNDLE=".build/dist/${APP_NAME}.app"
-DMG_NAME="BouncingDVDonMac-${VERSION}.dmg"
+DMG_NAME="BouncingLogo-${VERSION}.dmg"
 DMG_PATH=".build/dist/${DMG_NAME}"
 
 if [ ! -d "${APP_BUNDLE}" ]; then

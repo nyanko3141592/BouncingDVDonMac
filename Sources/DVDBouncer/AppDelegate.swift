@@ -83,7 +83,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     private func buildStatusItem(state: DVDState) {
         let item = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
         if let button = item.button {
-            let img = NSImage(systemSymbolName: "opticaldisc.fill", accessibilityDescription: "DVD Bouncer")
+            let img = NSImage(systemSymbolName: "opticaldisc.fill", accessibilityDescription: "BouncingLogo")
             img?.isTemplate = true
             button.image = img
             button.imagePosition = .imageOnly

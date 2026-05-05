@@ -15,7 +15,7 @@ struct SettingsView: View {
                 DVDLogoView(color: state.color, mainText: state.mainText, subText: state.subText)
                     .frame(width: 60, height: 30)
                 VStack(alignment: .leading, spacing: 2) {
-                    Text("DVD Bouncer")
+                    Text("BouncingLogo")
                         .font(.headline)
                     Text("Corner hits: \(state.cornerHits)  •  Walls: \(state.wallBounces)")
                         .font(.caption)

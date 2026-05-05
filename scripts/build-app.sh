@@ -6,7 +6,7 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 VERSION="${1:-0.1.0}"
-APP_NAME="BouncingDVD"
+APP_NAME="BouncingLogo"
 EXECUTABLE_NAME="DVDBouncer"
 BUILD_CONFIG="release"
 BUILD_DIR=".build/${BUILD_CONFIG}"
