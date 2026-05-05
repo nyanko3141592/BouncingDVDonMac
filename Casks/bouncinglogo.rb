@@ -4,7 +4,7 @@ cask "bouncinglogo" do
 
   url "https://github.com/nyanko3141592/BouncingDVDonMac/releases/download/v#{version}/BouncingLogo-#{version}.dmg"
   name "BouncingLogo"
-  desc "Generic bouncing logo overlay for macOS with corner-hit celebration"
+  desc "Generic bouncing logo overlay with corner-hit celebration"
   homepage "https://github.com/nyanko3141592/BouncingDVDonMac"
 
   depends_on macos: ">= :sonoma"
@@ -13,8 +13,8 @@ cask "bouncinglogo" do
   app "BouncingLogo.app"
 
   zap trash: [
-    "~/Library/Preferences/com.nyanko.bouncinglogo.plist",
     "~/Library/Application Support/com.nyanko.bouncinglogo",
     "~/Library/Caches/com.nyanko.bouncinglogo",
+    "~/Library/Preferences/com.nyanko.bouncinglogo.plist",
   ]
 end
